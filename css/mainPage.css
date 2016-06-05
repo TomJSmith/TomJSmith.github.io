@@ -1,0 +1,107 @@
+
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  color: #0F5959;
+  background-image: image();
+  background-color: #FFFFFF
+}
+
+div.mainFrame {
+  background-color: #FFFFFF;
+  margin: 180px auto;
+  display: block;
+  max-width: 800px;
+
+}
+
+div.resumeFrame {
+  overflow: hidden;
+  text-align: left;
+  border-color: #D93240;
+  border-style: solid;
+  border-left-width: thick;
+  border-right-width: thick;
+  border-bottom-width: thick;
+  border-top-width: 0px;
+}
+
+div.menuBar {
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #D93240;
+}
+
+div.heading {
+  text-align: center;
+  margin: 15px;
+}
+
+div.resume {
+  padding: 30px;
+  padding-top: 0px;
+  padding-right: 10px
+  width: inherit;
+}
+
+div.right {
+  float: right;
+  width: 30%;
+}
+
+div.left {
+  float: left;
+  width: 70%;
+  overflow: hidden;
+}
+
+.circleImage {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  padding-bottom:20px;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: inherit;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+    background-color: #0F5959;
+}
+
+#name {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h1 {
+  margin: 0px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+h5 {
+  margin-top: 0px;
+  margin-left: 30px;
+}
