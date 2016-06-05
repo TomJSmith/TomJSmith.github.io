@@ -5,12 +5,13 @@ body {
   text-align: center;
   color: #0F5959;
   background-image: image();
-  background-color: #FFFFFF
+  background-color: #EEEEEE
 }
 
 div.mainFrame {
   background-color: #FFFFFF;
   margin: 180px auto;
+  margin-bottom: 0px;
   display: block;
   max-width: 800px;
 
