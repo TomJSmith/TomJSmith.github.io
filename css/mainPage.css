@@ -17,7 +17,7 @@ div.mainFrame {
 
 }
 
-div.resumeFrame {
+div.contentFrame {
   overflow: hidden;
   text-align: left;
   border-color: #D93240;
@@ -47,6 +47,13 @@ div.resume {
   width: inherit;
 }
 
+div.contact {
+  padding: 50px;
+  padding-top: 20px;
+  padding-right: 10px
+  width: inherit;
+}
+
 div.right {
   float: right;
   width: 30%;
@@ -65,6 +72,9 @@ div.left {
   padding-bottom:20px;
 }
 
+.socialLinks {
+  margin-left: 30px;
+}
 
 .socialIcon {
   margin:15px;
@@ -94,6 +104,10 @@ li a {
 
 li a:hover {
     background-color: #0F5959;
+}
+
+li a:active {
+  background-color:  #0F5959;
 }
 
 #name {
