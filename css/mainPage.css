@@ -37,12 +37,11 @@ div.menuBar {
 div.heading {
   text-align: center;
   margin: 15px;
-  margin-top: 25px;
+  margin-top: 40px;
 }
 
 div.resume {
-  padding: 30px;
-  padding-top: 0px;
+  margin: 30px;
   padding-right: 10px
   width: inherit;
 }
@@ -119,10 +118,16 @@ h1 {
   margin: 0px;
 }
 
-h4 {
-  margin-bottom: 10px;
+.resumeItem {
+  margin: 40px;
 }
-h5 {
-  margin-top: 0px;
+
+.resumeItem h4 {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.resumeItem h5 {
+  margin: 0;
   margin-left: 30px;
 }
