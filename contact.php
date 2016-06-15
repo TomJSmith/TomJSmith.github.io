@@ -5,6 +5,38 @@
 <link rel="stylesheet" href="css/mainPage.css">
 </head>
 <body>
+
+<?php
+$name = "";
+$email = "";
+$message = "";
+$subject = "";
+$email_to = "lflupe@gmail.com";
+
+function cleanInput($data){
+    $data = trim($data);
+    $data = stripcslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $name = cleanInput($_POST["name"]);
+  $email = cleanInput($_POST["email"]);
+  $subject = cleanInput($_POST["subject"]);
+  $message = cleanInput($_POST["message"]);
+
+
+
+
+  $headers = 'From: '.$email_from."\r\n".
+  'Reply-To: '.$email_from."\r\n" .
+  'X-Mailer: PHP/' . phpversion();
+  mail($email_to, $subject, $message, $headers);
+}
+?>
+
+
 <div class="mainFrame">
   <div class="menuBar">
   <ul>
@@ -16,14 +48,16 @@
   </div>
   <div class="contentFrame">
     <div class="contactFormFrame">
-      <form class="contactForm" action="TODO" method="post">
+      <form class="contactForm" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
         <h3>Name<br></h3>
-        <input type="text" name="nameInputBox" value="">
+        <input type="text" name="name">
         <h3>Email</h3>
-        <input type="email" name="emailInputBox" value="">
+        <input type="email" name="email">
+        <h3>Subject<br></h3>
+        <input type="text" name="subject">
         <h3>Message</h3>
         <textarea name="message" rows="8" cols="40"></textarea>
-        <button type="button" name="button">Send</button>
+        <button type="submit" name="submit">Send</button>
       </form>
     </div>
   </div>
