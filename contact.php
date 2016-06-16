@@ -1,3 +1,29 @@
+<?php
+ob_start();
+$name = "";
+$email = "";
+$message = "";
+$subject = "";
+$email_to = "lflupe@gmail.com";
+function cleanInput($data){
+    $data = trim($data);
+    $data = stripcslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+}
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $name = cleanInput($_POST["name"]);
+  $email = cleanInput($_POST["email"]);
+  $subject = cleanInput($_POST["subject"]);
+  $message = cleanInput($_POST["message"]);
+  $headers = 'From: '.$email_from."\r\n".
+  'Reply-To: '.$email_from."\r\n" .
+  'X-Mailer: PHP/' . phpversion();
+  mail($email_to, $subject, $message, $headers);
+  header("Location: thanks.html");
+  ob_end_flush();
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,38 +31,6 @@
 <link rel="stylesheet" href="css/mainPage.css">
 </head>
 <body>
-
-<?php
-$name = "";
-$email = "";
-$message = "";
-$subject = "";
-$email_to = "lflupe@gmail.com";
-
-function cleanInput($data){
-    $data = trim($data);
-    $data = stripcslashes($data);
-    $data = htmlspecialchars($data);
-    return $data;
-}
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $name = cleanInput($_POST["name"]);
-  $email = cleanInput($_POST["email"]);
-  $subject = cleanInput($_POST["subject"]);
-  $message = cleanInput($_POST["message"]);
-
-
-
-
-  $headers = 'From: '.$email_from."\r\n".
-  'Reply-To: '.$email_from."\r\n" .
-  'X-Mailer: PHP/' . phpversion();
-  mail($email_to, $subject, $message, $headers);
-}
-?>
-
-
 <div class="mainFrame">
   <div class="menuBar">
   <ul>
