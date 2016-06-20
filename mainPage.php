@@ -21,17 +21,17 @@
     <div class="left">
       <div class="resume">
         <div class="resumeItem">
-          <h4>Computer Science, University of Calgary</h4>
+          <h3>Computer Science - University of Calgary</h3>
           <h5>Software Design, Algorithms, AI, Game Design, 3D Graphics, HCI</h5>
         </div>
         <div class="resumeItem">
-            <h4>Data Analyst, Precision Drilling Corporation</h4>
+            <h3>Data Analyst - Precision Drilling Corporation</h3>
             <h5>Python, VBA</h5>
         </div>
       </div>
     </div>
     <div class="right">
-      <img src="scubaProfile.jpg" class="circleImage" height="200px" width="200px"/>
+      <img src="images\scubaProfile.jpg" class="circleImage" height="200px" width="200px"/>
     </div>
   </div>
 </div>

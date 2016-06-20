@@ -7,6 +7,11 @@
 <link rel="stylesheet" href="css/mainPage.css">
 </head>
 <body>
+  <div id="bigImageFrame" class="bigImage" onclick="hideBigImage()">
+    <div id="bigImageOp" class="bigImageOpacity">
+    </div>
+    <img id="bigImage" src="" alt="" />
+  </div>
   <div class="mainFrame">
     <div class="menuBar">
       <ul>
@@ -17,28 +22,49 @@
       </ul>
     </div>
     <div class="contentFrame">
-      <div class="heading">
-        <h1 id="heading">Coming Soon :)</h1>
-      </div>
       <div class="photoGallery">
-        <div class="imageFrame" id = "img1" onclick="toggle('img1')">
-          <img src="louise.jpg" alt="lake louise" />
+        <div class="col">
+          <div class="imageFrame">
+            <img src="images\goldenGate.jpg" alt="Golden Gate Bridge" onclick="toggle(this)"/>
+          </div>
+          <div class="imageFrame">
+            <img src="images\big.jpg" alt="mountain" onclick="toggle(this)"/>
+          </div>
+          <div class="imageFrame">
+            <img src="images\fish.jpg" alt="fish" onclick="toggle(this)"/>
+          </div>
         </div>
-        <div class="imageFrame" id="img2" onclick="toggle('img2')">
-          <img src="louise.jpg" alt="lake louise" />
+
+        <div class="col">
+          <div class="imageFrame">
+            <img src="images\dog.jpg" alt="dog" onclick="toggle(this)" />
+          </div>
+          <div class="imageFrame">
+            <img src="images\lake.jpg" alt="lake louise" onclick="toggle(this)" />
+          </div>
+          <div class="imageFrame">
+            <img src="images\memorial.jpg" alt="memorial" onclick="toggle(this)"/>
+          </div>
         </div>
-        <div class="imageFrame" id="img3" onclick="toggle('img3')">
-          <img src="louise.jpg" alt="lake louise" />
+
+        <div class="col">
+          <div class="imageFrame">
+            <img src="images\hamil.jpg" alt="hiking" onclick="toggle(this)"/>
+          </div>
+          <div class="imageFrame">
+            <img src="images\louise.jpg" alt="lake louise" onclick="toggle(this)"/>
+          </div>
+          <div class="imageFrame">
+            <img src="images\small.jpg" alt="hiking" onclick="toggle(this)"/>
+          </div>
+
+          <div class="imageFrame">
+            <img src="images\rock.jpg" alt="minerals" onclick="toggle(this)"/>
+          </div>
         </div>
-        <div class="imageFrame" id = "img4" onclick="toggle('img4')">
-          <img src="louise.jpg" alt="lake louise" />
-        </div>
-        <div class="imageFrame" id="img5" onclick="toggle('img5')">
-          <img src="louise.jpg" alt="lake louise" />
-        </div>
-        <div class="imageFrame" id="img6" onclick="toggle('img6')">
-          <img src="louise.jpg" alt="lake louise" />
-        </div>
+
+
+
       </div>
     </div>
   </div>

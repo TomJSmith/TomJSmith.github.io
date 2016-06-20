@@ -6,6 +6,7 @@ body {
   color: #0F5959;
   background-image: image();
   background-color: #EEE;
+  margin: 0px;
 }
 
 .mainFrame {
@@ -103,16 +104,47 @@ body {
   margin-left: 30px;
 }
 
-.imageFrame {
-  width: 29.3%;
-  margin: 2%;
-  min-width:150px;
+.col {
   float: left;
+  width: 33.3%;
+  margin: 0%;
+  min-width: 150px;
+}
+
+.imageFrame {
+  margin: 4%;
 }
 
 .imageFrame img {
   width: 100%;
   height: 100%;
+}
+
+.bigImage {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  margin: auto;
+}
+
+.bigImageOpacity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #638CA6;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+
+.bigImage img {
+  opacity: 1.0;
+  width: 100%;
+  max-width: 1000px;
+  position: relative;
+  margin-top: 15%;
 }
 
 input {
