@@ -83,7 +83,7 @@ body {
 }
 
 .socialLinks {
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 .socialIcon {
@@ -145,6 +145,16 @@ body {
   max-width: 1000px;
   position: relative;
   margin-top: 15%;
+}
+
+.thanksMessage {
+  text-align: center;
+  margin: 40px;
+}
+
+.comingSoon {
+  text-align: center;
+  margin: 40px;
 }
 
 input {

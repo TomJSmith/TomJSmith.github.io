@@ -89,6 +89,16 @@ function getWidth() {
   }
 }
 
+function hover(picElement)
+{
+  picElement.style.backgroudWidth = "5px";
+}
+
+function unHover(picElement)
+{
+  picElement.style.backgroudWidth = "0px";
+}
+
 function getHeight() {
   if (self.innerHeight) {
     return self.innerHeight;

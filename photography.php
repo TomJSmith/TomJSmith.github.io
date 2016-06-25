@@ -25,7 +25,7 @@
       <div class="photoGallery">
         <div class="col">
           <div class="imageFrame">
-            <img src="images\goldenGate.jpg" alt="Golden Gate Bridge" onclick="toggle(this)"/>
+            <img src="images\goldenGate.jpg" alt="Golden Gate Bridge" onclick="toggle(this)" onmouseover="hover(this)" onmouseout="unHover(this)"/>
           </div>
           <div class="imageFrame">
             <img src="images\big.jpg" alt="mountain" onclick="toggle(this)"/>

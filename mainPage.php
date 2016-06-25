@@ -22,11 +22,12 @@
       <div class="resume">
         <div class="resumeItem">
           <h3>Computer Science - University of Calgary</h3>
-          <h5>Software Design, Algorithms, AI, Game Design, 3D Graphics, HCI</h5>
+          <h5>Algorithms, AI, Game Design,
+            3D Graphics, HCI, Operating Systems, Web Design</h5>
         </div>
         <div class="resumeItem">
             <h3>Data Analyst - Precision Drilling Corporation</h3>
-            <h5>Python, VBA</h5>
+            <h5>Python, VBA, SAP</h5>
         </div>
       </div>
     </div>

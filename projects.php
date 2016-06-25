@@ -15,7 +15,7 @@
     </ul>
   </div>
   <div class="contentFrame">
-    <div class="heading">
+    <div class="comingSoon">
       <h1>Coming Soon :)</h1>
     </div>
   </div>
