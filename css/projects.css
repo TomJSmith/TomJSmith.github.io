@@ -1,0 +1,20 @@
+.projectList
+{
+  padding:50px;
+}
+
+.projectItemImg
+{
+  height: 150px;
+  width: 150px;
+}
+
+.projectItemText
+{
+  font-size: x-large;
+  margin: 0px;
+  padding: 4px;
+  color: #FFF;
+  border-radius: 7px;
+  background-color: #D93240;
+}

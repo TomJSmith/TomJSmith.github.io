@@ -3,6 +3,7 @@
 <head>
 <title>Thomas Smith</title>
 <link rel="stylesheet" href="css/mainPage.css">
+<link rel="stylesheet" href="css/projects.css">
 </head>
 <body>
 <div class="mainFrame">
@@ -15,9 +16,16 @@
     </ul>
   </div>
   <div class="contentFrame">
-    <div class="comingSoon">
-      <h1>Coming Soon :)</h1>
-    </div>
+    <ul class="projectList">
+      <li class="projectListItem">
+        <div class="projectItemFrame">
+          <img class="projectItemImg"src="images/CookrLogo.png" alt="Cookr Logo"/>
+          <div class="projectItemText">
+              Cookr
+          </div>
+        </div>
+      </li>
+    </li>
   </div>
 </div>
 <div class="socialLinks">

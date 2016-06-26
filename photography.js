@@ -91,12 +91,12 @@ function getWidth() {
 
 function hover(picElement)
 {
-  picElement.style.backgroudWidth = "5px";
+  picElement.style.borderColor = "#D93240";
 }
 
 function unHover(picElement)
 {
-  picElement.style.backgroudWidth = "0px";
+  picElement.style.borderColor = "#FFF";
 }
 
 function getHeight() {
