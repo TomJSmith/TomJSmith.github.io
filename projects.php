@@ -19,9 +19,11 @@
     <ul class="projectList">
       <li class="projectListItem">
         <div class="projectItemFrame">
-          <img class="projectItemImg"src="images/CookrLogo.png" alt="Cookr Logo"/>
-          <div class="projectItemText">
+          <div class="projectItemTitle">
               Cookr
+          </div>
+          <div class="projectItemDescription">
+            Cookr is a high fidelity prototype of a tablet based cooking application designed to help beginners get into the kitchen. 
           </div>
         </div>
       </li>

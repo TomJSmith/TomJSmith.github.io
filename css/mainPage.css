@@ -106,7 +106,7 @@ body {
 
 .col {
   float: left;
-  width: 33.2%;
+  width: 33.1%;
   margin: 0%;
   min-width: 150px;
 }
@@ -116,7 +116,7 @@ body {
 }
 
 .imageFrame img {
-  width: 100%;
+  width: 100%;inb
   border: 3px;
   margin: 0px;
   border-color: #FFF;
