@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src='js\projects.js'>
+  </script>
 <title>Thomas Smith</title>
 <link rel="stylesheet" href="css/mainPage.css">
 <link rel="stylesheet" href="css/projects.css">
@@ -17,17 +19,33 @@
   </div>
   <div class="contentFrame">
     <ul class="projectList">
-      <li class="projectListItem">
-        <div class="projectItemFrame">
-          <div class="projectItemTitle">
-              Cookr
+      <li class="projectListItem" onmouseover="projectHover(this)" onmouseout="projectUnHover(this)">
+          <div class="projectIcon">
+              <img src="images\CookrLogo.png" alt="Cookr Logo" />
           </div>
-          <div class="projectItemDescription">
-            Cookr is a high fidelity prototype of a tablet based cooking application designed to help beginners get into the kitchen. 
+          <div class="projectText">
+            <div class="projectItemTitle">
+                Cookr
+            </div>
+            <div class="projectItemDescription">
+              Cookr is a high fidelity prototype for a tablet based cooking application designed to help beginners start cooking at home.
+            </div>
           </div>
-        </div>
       </li>
-    </li>
+
+      <li class="projectListItem" onmouseover="projectHover(this)" onmouseout="projectUnHover(this)">
+          <div class="projectIcon">
+              <img src="images\CookrLogo.png" alt="Cookr Logo" />
+          </div>
+          <div class="projectText">
+            <div class="projectItemTitle">
+                Cookr
+            </div>
+            <div class="projectItemDescription">
+              Cookr is a high fidelity prototype of a tablet based cooking application designed to help beginners start cooking at home.
+            </div>
+          </div>
+      </li>
   </div>
 </div>
 <div class="socialLinks">

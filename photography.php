@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script src='photography.js'>
+  <script src='js\photography.js'>
   </script>
 <title>Thomas Smith</title>
 <link rel="stylesheet" href="css/mainPage.css">

@@ -30,8 +30,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html>
 <head>
+  <script type="text/javascript" src="js\contact.js">
+  </script>
 <title>Thomas Smith</title>
 <link rel="stylesheet" href="css/mainPage.css">
+<link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
 <div class="mainFrame">
@@ -46,14 +49,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <div class="contentFrame">
     <div class="contactFormFrame">
       <form class="contactForm" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
-        <h3>Name<br></h3>
-        <input type="text" name="name">
-        <h3>Email</h3>
-        <input type="email" name="email">
-        <h3>Subject<br></h3>
-        <input type="text" name="subject">
-        <h3>Message</h3>
-        <textarea name="message" rows="8" cols="40"></textarea>
+        <input class="contactInput" type="text" name="name" value="Name" onfocus="fieldGetFocus(this, 'Name')" onblur="fieldLoseFocus(this, 'Name')">
+        <input class="contactInput" type="email" name="email" value="Email" onfocus="fieldGetFocus(this, 'Email')" onblur="fieldLoseFocus(this, 'Email')">
+        <input class="contactInput" type="text" name="subject" value="Subject" onfocus="fieldGetFocus(this, 'Subject')" onblur="fieldLoseFocus(this, 'Subject')">
+        <textarea class="contactInput" name="message" rows="8" cols="40" onfocus="fieldGetFocus(this, 'Message')" onblur="fieldLoseFocus(this, 'Message')">Message</textarea>
         <button type="submit" name="submit">Send</button>
       </form>
     </div>

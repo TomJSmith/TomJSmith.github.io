@@ -192,23 +192,6 @@ textarea:focus {
   outline: none;
 }
 
-button {
-  float: right;
-  margin-top: 10px;
-  padding: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  color: #FFF;
-  font-size: 18px;
-  background-color: #D93240;
-  border-width: 0px;
-  border-radius: 4px;
-}
-
-button:focus {
-  outline: none;
-}
-
 ul {
   text-align: center;
   list-style-type: none;
