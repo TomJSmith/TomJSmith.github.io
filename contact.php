@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="contactFormFrame">
       <form class="contactForm" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
         <input class="contactInput" type="text" name="name" value="Name" onfocus="fieldGetFocus(this, 'Name')" onblur="fieldLoseFocus(this, 'Name')">
-        <input class="contactInput" type="email" name="email" value="Email" onfocus="fieldGetFocus(this, 'Email')" onblur="fieldLoseFocus(this, 'Email')">
+        <input class="contactInput" type="text" name="email" value="Email" onfocus="fieldGetFocus(this, 'Email')" onblur="fieldLoseFocus(this, 'Email')">
         <input class="contactInput" type="text" name="subject" value="Subject" onfocus="fieldGetFocus(this, 'Subject')" onblur="fieldLoseFocus(this, 'Subject')">
         <textarea class="contactInput" name="message" rows="8" cols="40" onfocus="fieldGetFocus(this, 'Message')" onblur="fieldLoseFocus(this, 'Message')">Message</textarea>
         <button type="submit" name="submit">Send</button>
@@ -59,10 +59,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   </div>
 </div>
 <div class="socialLinks">
-  <a href="https://www.instagram.com/thom_john/"><img src="instagram.png" class="socialIcon" height="30px" width="30px"/></a>
-  <a href="https://www.facebook.com/profile.php?id=1081272861"><img src="facebook-black.png" class="socialIcon" height="30px" width="30px"/></a>
-  <a href="https://github.com/TomJSmith"><img src="github.png" class="socialIcon" height="30px" width="30px"/></a>
-  <a href="https://ca.linkedin.com/in/thomas-smith-39686289"><img src="linkedin.png" class="socialIcon" height="30px" width="38px"/></a>
+  <a href="https://www.instagram.com/thom_john/"><img src="images\icons\instagram.png" class="socialIcon" height="30px" width="30px"/></a>
+  <a href="https://www.facebook.com/profile.php?id=1081272861"><img src="images\icons\facebook-black.png" class="socialIcon" height="30px" width="30px"/></a>
+  <a href="https://github.com/TomJSmith"><img src="images\icons\github.png" class="socialIcon" height="30px" width="30px"/></a>
+  <a href="https://ca.linkedin.com/in/thomas-smith-39686289"><img src="images\icons\linkedin.png" class="socialIcon" height="30px" width="38px"/></a>
 </div>
 </body>
 </html>
