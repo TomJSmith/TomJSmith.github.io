@@ -35,7 +35,7 @@
 
       <li onclick="location.href = 'wip.html';" class="projectListItem" onmouseover="projectHover(this)" onmouseout="projectUnHover(this)">
           <div class="projectIcon">
-              <!-- <img src="images\projects\CookrLogo.png" alt="BOIDS" /> -->
+              <img src="images\projects\BoidLogo.png" alt="BOIDS" />
           </div>
           <div class="projectText">
             <div class="projectItemTitle">
