@@ -24,6 +24,8 @@
           <h3>Computer Science - University of Calgary</h3>
           <h5>Algorithms, AI, Game Design,
             3D Graphics, HCI, Operating Systems, Web Design</h5>
+            <br>
+          <h5>Java, C++, C#, Python</h5>
         </div>
         <div class="resumeItem">
             <h3>Data Analyst - Precision Drilling Corporation</h3>
