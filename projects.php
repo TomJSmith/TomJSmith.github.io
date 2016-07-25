@@ -19,7 +19,7 @@
   </div>
   <div class="contentFrame">
     <ul class="projectList">
-      <li onclick="location.href = 'wip.html';" class="projectListItem" onmouseover="projectHover(this)" onmouseout="projectUnHover(this)">
+      <li onclick="location.href = 'cookr.php';" class="projectListItem" onmouseover="projectHover(this)" onmouseout="projectUnHover(this)">
           <div class="projectIcon">
               <img src="images\projects\CookrLogo.png" alt="Cookr Logo" />
           </div>
