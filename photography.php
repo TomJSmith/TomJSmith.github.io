@@ -37,10 +37,10 @@
 
         <div class="col">
           <div class="imageFrame">
-            <img src="images\photos\dog.jpg" alt="dog" onclick="toggle(this)" />
+            <img src="images\photos\heron.jpg" alt="Heron" onclick="toggle(this)" />
           </div>
           <div class="imageFrame">
-            <img src="images\photos\lake.jpg" alt="lake louise" onclick="toggle(this)" />
+            <img src="images\photos\inkpots.jpg" alt="Mountain" onclick="toggle(this)" />
           </div>
           <div class="imageFrame">
             <img src="images\photos\memorial.jpg" alt="memorial" onclick="toggle(this)"/>
