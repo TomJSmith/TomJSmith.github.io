@@ -22,7 +22,6 @@ body {
 }
 
 .contentFrame {
-  padding: 50px;
   overflow: hidden;
   text-align: left;
   border-color: #D93240;
@@ -47,8 +46,8 @@ body {
 
 .heading {
   text-align: center;
-  margin: 15px;
-  margin-top: 20px;
+  font-size: 130%;
+  padding: 30px;
 }
 
 .resume {
@@ -122,11 +121,12 @@ body {
   margin: 0px;
   border-color: #FFF;
   border-style: solid;
+  border-radius: 1%;
 }
 
-.imageFrame img:hover {
+/*.imageFrame img:hover {
   border-color: #D93240;
-}
+}*/
 
 .bigImage {
   top: 0;
@@ -206,29 +206,28 @@ li {
   float: left;
 }
 
-li a {
+.menuItem {
   color: inherit;
   display: block;
-  padding: 10px;
   text-align: center;
   padding: 14px 16px;
+  padding-bottom: 10px;
   text-decoration: none;
+  border-style: solid;
+  border-width: 0px;
+  border-bottom-width: 4px;
+  border-color: #D93240;
 }
 
-li a:hover {
+.activeMenuItem {
+  background-color: #0F5959;
+  border-color: #0F5959;
+}
+/*li a:hover {
     background-color: #0F5959;
-}
-
-li a:active {
-  background-color:  #0F5959;
-}
+}*/
 
 #name {
   text-align: center;
   padding-bottom: 20px;
-}
-
-h1 {
-  margin: 0px;
-  font-size: 250%;
 }

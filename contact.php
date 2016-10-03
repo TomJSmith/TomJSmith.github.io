@@ -31,6 +31,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html>
 <head>
   <script type="text/javascript" src="js\contact.js">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/menuItems.js"></script>
   </script>
 <title>Thomas Smith</title>
 <link rel="stylesheet" href="css/mainPage.css">
@@ -40,10 +42,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <div class="mainFrame">
   <div class="menuBar">
   <ul>
-    <li><a href="mainPage.php">Home</a></li>
-    <li><a href="photography.php">Photography</a></li>
-    <li><a href="projects.php">Projects</a></li>
-    <li><a href="contact.php" style="background-color: #0F5959">Contact</a></li>
+    <li><a class="menuItem" href="mainPage.php">Home</a></li>
+    <li><a class="menuItem" href="photography.php">Photography</a></li>
+    <li><a class="menuItem" href="projects.php">Projects</a></li>
+    <li><a class="menuItem activeMenuItem" href="contact.php">Contact</a></li>
   </ul>
   </div>
   <div class="contentFrame">

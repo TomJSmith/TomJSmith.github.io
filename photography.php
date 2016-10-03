@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script src='js\photography.js'>
-  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/menuItems.js"></script>
+  <script src='js\photography.js'></script>
 <title>Thomas Smith</title>
 <link rel="stylesheet" href="css/mainPage.css">
 </head>
@@ -15,51 +16,50 @@
   <div class="mainFrame">
     <div class="menuBar">
       <ul>
-        <li><a href="mainPage.php">Home</a></li>
-        <li><a href="photography.php" style="background-color: #0F5959">Photography</a></li>
-        <li><a href="projects.php">Projects</a></li>
-        <li><a href="contact.php">Contact</a></li>
+        <li><a class="menuItem" href="mainPage.php">Home</a></li>
+        <li><a class="menuItem activeMenuItem" href="photography.php">Photography</a></li>
+        <li><a class="menuItem" href="projects.php">Projects</a></li>
+        <li><a class="menuItem" href="contact.php">Contact</a></li>
       </ul>
     </div>
     <div class="contentFrame">
       <div class="photoGallery">
         <div class="col">
           <div class="imageFrame">
-            <img src="images\photos\goldenGate.jpg" alt="Golden Gate Bridge" onclick="toggle(this)" onmouseover="hover(this)" onmouseout="unHover(this)"/>
+            <img class="galleryImage" src="images\photos\goldenGate.jpg" alt="Golden Gate Bridge" onclick="toggle(this)"/>
           </div>
           <div class="imageFrame">
-            <img src="images\photos\big.jpg" alt="mountain" onclick="toggle(this)"/>
+            <img class="galleryImage" src="images\photos\big.jpg" alt="mountain" onclick="toggle(this)"/>
           </div>
           <div class="imageFrame">
-            <img src="images\photos\fish.jpg" alt="fish" onclick="toggle(this)"/>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="imageFrame">
-            <img src="images\photos\heron.jpg" alt="Heron" onclick="toggle(this)" />
-          </div>
-          <div class="imageFrame">
-            <img src="images\photos\inkpots.jpg" alt="Mountain" onclick="toggle(this)" />
-          </div>
-          <div class="imageFrame">
-            <img src="images\photos\memorial.jpg" alt="memorial" onclick="toggle(this)"/>
+            <img class="galleryImage" src="images\photos\fish.jpg" alt="fish" onclick="toggle(this)"/>
           </div>
         </div>
 
         <div class="col">
           <div class="imageFrame">
-            <img src="images\photos\hamil.jpg" alt="hiking" onclick="toggle(this)"/>
+            <img class="galleryImage" src="images\photos\heron.jpg" alt="Heron" onclick="toggle(this)" />
           </div>
           <div class="imageFrame">
-            <img src="images\photos\louise.jpg" alt="lake louise" onclick="toggle(this)"/>
+            <img class="galleryImage" src="images\photos\inkpots.jpg" alt="Mountain" onclick="toggle(this)" />
           </div>
           <div class="imageFrame">
-            <img src="images\photos\small.jpg" alt="hiking" onclick="toggle(this)"/>
+            <img class="galleryImage" src="images\photos\memorial.jpg" alt="memorial" onclick="toggle(this)"/>
           </div>
+        </div>
 
+        <div class="col">
           <div class="imageFrame">
-            <img src="images\photos\rock.jpg" alt="minerals" onclick="toggle(this)"/>
+            <img class="galleryImage" src="images\photos\hamil.jpg" alt="hiking" onclick="toggle(this)"/>
+          </div>
+          <div class="imageFrame">
+            <img class="galleryImage" src="images\photos\louise.jpg" alt="lake louise" onclick="toggle(this)"/>
+          </div>
+          <div class="imageFrame">
+            <img class="galleryImage" src="images\photos\small.jpg" alt="hiking" onclick="toggle(this)"/>
+          </div>
+          <div class="imageFrame">
+            <img class="galleryImage" src="images\photos\rock.jpg" alt="minerals" onclick="toggle(this)"/>
           </div>
         </div>
 

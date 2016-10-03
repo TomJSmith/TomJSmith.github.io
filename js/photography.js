@@ -1,5 +1,17 @@
 var bigPicId = '-1';
 
+$(document).ready(function()
+{
+  $(".galleryImage").hover(function()
+  {
+    fadeInDiv($(this), 300);
+  }, function()
+  {
+    fadeOutDiv($(this), 300);
+  });
+
+});
+
 function toggle(picElement)
 {
   var bigPic = document.getElementById('bigImage');
@@ -25,6 +37,29 @@ function toggle(picElement)
   document.getElementById('bigImageFrame').style.width = '100%';
   document.getElementById('bigImageFrame').style.height = '100%';
 }
+
+function fadeInDiv(divObject, fadeTime)
+{
+  $({alpha: 0}).animate({alpha: 1}, {
+    duration: fadeTime,
+    step: function()
+    {
+        divObject.css("border-color", "rgba(217,50,64," + this.alpha + ")");
+    }
+  });
+}
+
+function fadeOutDiv(divObject, fadeTime)
+{
+  $({alpha: 1}).animate({alpha: 0}, {
+    duration: fadeTime,
+    step: function()
+    {
+        divObject.css("border-color", "rgba(217,50,64," + this.alpha + ")");
+    }
+  });
+}
+
 
 function sizeImageByWidth()
 {

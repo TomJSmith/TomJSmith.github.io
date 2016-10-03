@@ -3,15 +3,17 @@
 <head>
 <title>Thomas Smith</title>
 <link rel="stylesheet" href="css/mainPage.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/menuItems.js"></script>
 </head>
 <body>
 <div class="mainFrame">
   <div class="menuBar">
     <ul>
-      <li><a href="mainPage.php" style="background-color: #0F5959">Home</a></li>
-      <li><a href="photography.php">Photography</a></li>
-      <li><a href="projects.php">Projects</a></li>
-      <li><a href="contact.php">Contact</a></li>
+      <li><a class="menuItem activeMenuItem" href="mainPage.php">Home</a></li>
+      <li><a class="menuItem" href="photography.php">Photography</a></li>
+      <li><a class="menuItem" href="projects.php">Projects</a></li>
+      <li><a class="menuItem" href="contact.php">Contact</a></li>
     </ul>
   </div>
   <div class="contentFrame">

@@ -6,20 +6,22 @@
 <title>Thomas Smith</title>
 <link rel="stylesheet" href="css/mainPage.css">
 <link rel="stylesheet" href="css/projects.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/menuItems.js"></script>
 </head>
 <body>
 <div class="mainFrame">
   <div class="menuBar">
     <ul>
-      <li><a href="mainPage.php">Home</a></li>
-      <li><a href="photography.php">Photography</a></li>
-      <li><a href="projects.php" style="background-color: #0F5959">Projects</a></li>
-      <li><a href="contact.php">Contact</a></li>
+      <li><a class="menuItem" href="mainPage.php">Home</a></li>
+      <li><a class="menuItem" href="photography.php">Photography</a></li>
+      <li><a class="menuItem activeMenuItem" href="projects.php">Projects</a></li>
+      <li><a class="menuItem" href="contact.php">Contact</a></li>
     </ul>
   </div>
   <div class="contentFrame">
     <ul class="projectList">
-      <li onclick="location.href = 'cookr.php';" class="projectListItem" onmouseover="projectHover(this)" onmouseout="projectUnHover(this)">
+      <li onclick="location.href = 'https://github.com/TomJSmith/Cookr';" class="projectListItem" onmouseover="projectHover(this)" onmouseout="projectUnHover(this)">
           <div class="projectIcon">
               <img src="images\projects\CookrLogo.png" alt="Cookr Logo" />
           </div>
