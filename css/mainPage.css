@@ -46,13 +46,28 @@ body {
 
 .heading {
   text-align: center;
-  font-size: 130%;
+  font-size: 150%;
   padding: 30px;
 }
 
+.profile {
+  padding-top: 50px;
+  padding-left: 125px;
+  padding-right: 125px;
+  font-size: 110%;
+  text-align: center;
+  font-style: italic;
+}
+
+.profileImage {
+
+}
+
 .resume {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
   margin: 30px;
-  padding-right: 10px
   width: inherit;
 }
 
@@ -88,6 +103,7 @@ body {
 
 .socialIcon {
   margin:15px;
+  opacity: .7;
 }
 
 .resumeItem {
@@ -101,7 +117,7 @@ body {
 
 .resumeItem h5 {
   margin: 0;
-  margin-left: 30px;
+  padding: 5px;
 }
 
 .col {

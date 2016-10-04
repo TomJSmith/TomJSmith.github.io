@@ -4,6 +4,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/menuItems.js"></script>
   <script src='js\photography.js'></script>
+  <script src="js/socialMedia.js"></script>
 <title>Thomas Smith</title>
 <link rel="stylesheet" href="css/mainPage.css">
 </head>
@@ -26,6 +27,9 @@
       <div class="photoGallery">
         <div class="col">
           <div class="imageFrame">
+            <img class="galleryImage" src="images\photos\watertonValley.jpg" alt"Mountain Valley" onclick="toggle(this)"/>
+          </div>
+          <div class="imageFrame">
             <img class="galleryImage" src="images\photos\goldenGate.jpg" alt="Golden Gate Bridge" onclick="toggle(this)"/>
           </div>
           <div class="imageFrame">
@@ -37,6 +41,9 @@
         </div>
 
         <div class="col">
+          <div class="imageFrame">
+            <img class="galleryImage" src="images\photos\watertonWaterfall.jpg" alt="Waterton waterfall" onclick="toggle(this)"/>
+          </div>
           <div class="imageFrame">
             <img class="galleryImage" src="images\photos\heron.jpg" alt="Heron" onclick="toggle(this)" />
           </div>

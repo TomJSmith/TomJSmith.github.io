@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="css/mainPage.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/menuItems.js"></script>
+<script src="js/socialMedia.js"></script>
 </head>
 <body>
 <div class="mainFrame">
@@ -20,24 +21,29 @@
     <div class="heading">
       <h1>Thomas Smith</h1>
     </div>
-    <div class="left">
+    <div class="profileImage">
+      <img src="images\photos\scubaProfile.jpg" class="circleImage" height="200px" width="200px"/>
+    </div>
+    <div class="profile">
+      I'm a computer science student at the University of Calgary in my final
+      year of study. Currently, I'm working as an intern at Shaw doing full-stack
+      development on an internal tool. I love coding, learning new things,
+      and exploring the outdoors. I'm currently looking for dev
+      positions starting May 2017 or later.
+    </div>
       <div class="resume">
         <div class="resumeItem">
           <h3>Computer Science - University of Calgary</h3>
-          <h5>Algorithms, AI, Game Design,
-            3D Graphics, HCI, Operating Systems, Web Design</h5>
-            <br>
-          <h5>Java, C++, C#, Python</h5>
+          <h5>Algorithms, Data Structures, AI, Game Design,
+           3D Graphics, HCI, Operating Systems, Web Design</h5>
+           <h5>Java, Python, C++, C#</h5>
         </div>
         <div class="resumeItem">
-            <h3>Data Analyst - Precision Drilling Corporation</h3>
-            <h5>Python, VBA, SAP</h5>
+            <h3>Computer Science Intern - Shaw Communications</h3>
+            <h5>Architecture and Product Development</h5>
+            <h5>Python, Javascript, HTML, CSS, MySQL, Cassandra</h5>
         </div>
       </div>
-    </div>
-    <div class="right">
-      <img src="images\photos\scubaProfile.jpg" class="circleImage" height="200px" width="200px"/>
-    </div>
   </div>
 </div>
 <div class="socialLinks">

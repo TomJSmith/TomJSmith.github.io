@@ -33,6 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <script type="text/javascript" src="js\contact.js">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/menuItems.js"></script>
+  <script src="js/socialMedia.js"></script>
   </script>
 <title>Thomas Smith</title>
 <link rel="stylesheet" href="css/mainPage.css">
