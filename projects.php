@@ -45,7 +45,7 @@
                 OpenGL Boids
             </div>
             <div class="projectItemDescription">
-              Birdoid object simulation in OpenGL that demonstrates flocking behavior and object avoidance with independent agents.
+              Birdoid object simulation in OpenGL that demonstrates flocking behavior and object avoidance by independent agents.
             </div>
           </div>
       </li>
