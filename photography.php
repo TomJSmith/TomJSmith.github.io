@@ -26,49 +26,50 @@
     <div class="contentFrame">
       <div class="photoGallery">
         <div class="col">
-          <div class="imageFrame">
-            <img class="galleryImage" src="images\photos\watertonValley.jpg" alt"Mountain Valley" onclick="toggle(this)"/>
+          <div class="imageFrame" onclick="location.href = 'images\\photos\\watertonValley.jpg';">
+            <img class="galleryImage" src="images\photos\watertonValley_s.jpg" alt"Mountain Valley"/>
           </div>
-          <div class="imageFrame">
-            <img class="galleryImage" src="images\photos\goldenGate.jpg" alt="Golden Gate Bridge" onclick="toggle(this)"/>
+          <div class="imageFrame" onclick="location.href = 'images\\photos\\hamil.jpg';">
+            <img class="galleryImage" src="images\photos\hamil_s.jpg" alt="hiking" onclick="toggle(this)"/>
           </div>
-          <div class="imageFrame">
-            <img class="galleryImage" src="images\photos\big.jpg" alt="mountain" onclick="toggle(this)"/>
+          <div class="imageFrame" onclick="location.href = 'images\\photos\\louise.jpg';">
+            <img class="galleryImage" src="images\photos\louise_s.jpg" alt="lake louise" onclick="toggle(this)"/>
           </div>
-          <div class="imageFrame">
-            <img class="galleryImage" src="images\photos\fish.jpg" alt="fish" onclick="toggle(this)"/>
+          <div class="imageFrame" onclick="location.href = 'images\\photos\\inkpots.jpg';">
+            <img class="galleryImage" src="images\photos\inkpots_s.jpg" alt="Mountain" onclick="toggle(this)" />
           </div>
-        </div>
-
-        <div class="col">
-          <div class="imageFrame">
-            <img class="galleryImage" src="images\photos\watertonWaterfall.jpg" alt="Waterton waterfall" onclick="toggle(this)"/>
-          </div>
-          <div class="imageFrame">
-            <img class="galleryImage" src="images\photos\heron.jpg" alt="Heron" onclick="toggle(this)" />
-          </div>
-          <div class="imageFrame">
-            <img class="galleryImage" src="images\photos\inkpots.jpg" alt="Mountain" onclick="toggle(this)" />
-          </div>
-          <div class="imageFrame">
-            <img class="galleryImage" src="images\photos\memorial.jpg" alt="memorial" onclick="toggle(this)"/>
+          <div class="imageFrame" onclick="location.href = 'images\\photos\\big.jpg';">
+            <img class="galleryImage" src="images\photos\big_s.jpg" alt="mountain"/>
           </div>
         </div>
 
         <div class="col">
-          <div class="imageFrame">
-            <img class="galleryImage" src="images\photos\hamil.jpg" alt="hiking" onclick="toggle(this)"/>
+          <div class="imageFrame" onclick="location.href = 'images\\photos\\watertonWaterfall.jpg';">
+            <img class="galleryImage" src="images\photos\watertonWaterfall_s.jpg" alt="Waterton waterfall" onclick="toggle(this)"/>
           </div>
-          <div class="imageFrame">
-            <img class="galleryImage" src="images\photos\louise.jpg" alt="lake louise" onclick="toggle(this)"/>
+
+          <div class="imageFrame" onclick="location.href = 'images\\photos\\goldenGate.jpg';">
+            <img class="galleryImage" src="images\photos\goldenGate_s.jpg" alt="Golden Gate Bridge"/>
           </div>
-          <div class="imageFrame">
-            <img class="galleryImage" src="images\photos\small.jpg" alt="hiking" onclick="toggle(this)"/>
-          </div>
-          <div class="imageFrame">
-            <img class="galleryImage" src="images\photos\rock.jpg" alt="minerals" onclick="toggle(this)"/>
+          <div class="imageFrame" onclick="location.href = 'images\\photos\\small.jpg';">
+            <img class="galleryImage" src="images\photos\small_s.jpg" alt="hiking" onclick="toggle(this)"/>
           </div>
         </div>
+        <div class="col">
+          <div class="imageFrame" onclick="location.href = 'images\\photos\\watertonPeak.jpg';">
+            <img class="galleryImage" src="images\photos\watertonPeak_s.jpg" alt="Heron" onclick="toggle(this)" />
+          </div>
+          <div class="imageFrame" onclick="location.href = 'images\\photos\\heron.jpg';">
+            <img class="galleryImage" src="images\photos\heron_s.jpg" alt="Heron" onclick="toggle(this)" />
+          </div>
+          <div class="imageFrame" onclick="location.href = 'images\\photos\\fish.jpg';">
+            <img class="galleryImage" src="images\photos\fish_s.jpg" alt="fish"/>
+          </div>
+          <div class="imageFrame" onclick="location.href = 'images\\photos\\memorial.jpg';">
+            <img class="galleryImage" src="images\photos\memorial_s.jpg" alt="memorial" onclick="toggle(this)"/>
+          </div>
+        </div>
+
 
 
 

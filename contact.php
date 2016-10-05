@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html>
 <head>
-  <script type="text/javascript" src="js\contact.js">
+  <script type="text/javascript" src="js\contact.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/menuItems.js"></script>
   <script src="js/socialMedia.js"></script>
@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input class="contactInput" type="text" name="email" value="Email" onfocus="fieldGetFocus(this, 'Email')" onblur="fieldLoseFocus(this, 'Email')">
         <input class="contactInput" type="text" name="subject" value="Subject" onfocus="fieldGetFocus(this, 'Subject')" onblur="fieldLoseFocus(this, 'Subject')">
         <textarea class="contactInput" name="message" rows="8" cols="40" onfocus="fieldGetFocus(this, 'Message')" onblur="fieldLoseFocus(this, 'Message')">Message</textarea>
-        <button type="submit" name="submit">Send</button>
+        <button class="sendButton" type="submit" name="submit">Send</button>
       </form>
     </div>
   </div>
