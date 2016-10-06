@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/menuItems.js"></script>
   <script src='js\photography.js'></script>
@@ -9,11 +10,6 @@
 <link rel="stylesheet" href="css/mainPage.css">
 </head>
 <body>
-  <div id="bigImageFrame" class="bigImage" onclick="hideBigImage()">
-    <div id="bigImageOp" class="bigImageOpacity">
-    </div>
-    <img id="bigImage" src="" alt="" />
-  </div>
   <div class="mainFrame">
     <div class="menuBar">
       <ul>

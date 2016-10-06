@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Thomas Smith</title>
-<link rel="stylesheet" href="css/mainPage.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="js/menuItems.js"></script>
-<script src="js/socialMedia.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thomas Smith - software dev</title>
+  <meta name="description" content="I'm a student at the University of Calgary in my final year of study. I love coding, learning new things, and exploring the outdoors with my camera. Currently open to new dev oportunities."/>
+  <link rel="stylesheet" href="css/mainPage.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/menuItems.js"></script>
+  <script src="js/socialMedia.js"></script>
 </head>
 <body>
 <div class="mainFrame">
