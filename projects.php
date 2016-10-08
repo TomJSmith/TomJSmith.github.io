@@ -36,7 +36,7 @@
           </div>
       </li>
 
-      <li onclick="location.href = 'wip.html';" class="projectListItem" onmouseover="projectHover(this)" onmouseout="projectUnHover(this)">
+      <li onclick="location.href = 'https://github.com/TomJSmith/Boids';" class="projectListItem" onmouseover="projectHover(this)" onmouseout="projectUnHover(this)">
           <div class="projectIcon">
               <img src="images\projects\BoidLogo.png" alt="BOIDS" />
           </div>
@@ -45,10 +45,25 @@
                 OpenGL Boids
             </div>
             <div class="projectItemDescription">
-              Birdoid object simulation in OpenGL that demonstrates flocking behavior and object avoidance by independent agents.
+              Birdoid object animation using OpenGL and C++ that demonstrates flocking behavior and object avoidance by independent agents.
             </div>
           </div>
       </li>
+
+      <li onclick="location.href = 'https://github.com/TomJSmith/personalSite';" class="projectListItem" onmouseover="projectHover(this)" onmouseout="projectUnHover(this)">
+          <div class="projectIcon">
+              <img src="images\icons\tIcon.jpg" alt="Scuba Selfie" />
+          </div>
+          <div class="projectText">
+            <div class="projectItemTitle">
+                TomJohnSmith.com
+            </div>
+            <div class="projectItemDescription">
+              This website!
+            </div>
+          </div>
+      </li>
+
   </div>
 </div>
 <div class="socialLinks">
