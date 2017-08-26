@@ -56,10 +56,10 @@
           </div>
           <div class="projectText">
             <div class="projectItemTitle">
-                TomJohnSmith.com
+                <div class="projectItemTitleWord">Tom</div><div class="projectItemTitleWord">John</div><div class="projectItemTitleWord">Smith</div><div class="projectItemTitleWord">.com</div>
             </div>
             <div class="projectItemDescription">
-              This website!
+              This website! I made this site to centralize my presence on the internet while also learning Javascrip and webdev. 
             </div>
           </div>
       </li>
