@@ -13,7 +13,7 @@
   <div class="mainFrame">
     <div class="menuBar">
       <ul>
-        <li><a class="menuItem" href="mainPage.php">Home</a></li>
+        <li><a class="menuItem" href="index.php">Home</a></li>
         <li><a class="menuItem activeMenuItem" href="photography.php">Photography</a></li>
         <li><a class="menuItem" href="projects.php">Projects</a></li>
         <li><a class="menuItem" href="contact.php">Contact</a></li>
